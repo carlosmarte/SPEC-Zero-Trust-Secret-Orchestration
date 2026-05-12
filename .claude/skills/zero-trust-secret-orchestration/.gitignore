@@ -1,0 +1,8 @@
+# Per-package install/build artifacts
+references/mjs/node_modules/
+references/mjs/dist/
+references/py/.venv/
+references/py/dist/
+references/py/.pytest_cache/
+references/py/.ruff_cache/
+**/__pycache__/

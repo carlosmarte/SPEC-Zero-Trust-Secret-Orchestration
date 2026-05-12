@@ -1,0 +1,24 @@
+{
+  "name": "@zts/references-mjs",
+  "version": "0.1.0",
+  "description": "Zero-Trust Secret Orchestration — Node.js (mjs) reference implementation.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./src/index.mjs",
+    "./strategy": "./src/strategy.mjs",
+    "./resolver": "./src/resolver.mjs",
+    "./harness": "./src/harness.mjs",
+    "./fastify-plugin": "./src/fastify-plugin.mjs",
+    "./strategies/*": "./src/strategies/*.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "fastify-plugin": "^5.0.0"
+  }
+}
